@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="CameraUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CameraUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="LightGray">
+        <Image x:Name="imageControl" Width="200" Height="200"></Image>
+        <Button x:Name="button" Content="Capture Picture" HorizontalAlignment="Left" Margin="449,154,0,0" VerticalAlignment="Top" Click="CameraCptureUI_Click"/>
+    </Grid>
+</Page>
