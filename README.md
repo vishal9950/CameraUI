@@ -1,3 +1,3 @@
 # CameraUI
 
-Windows UWP for capturing pictures using CameraCaptureUI class.
+UWP app for capturing pictures using CameraCaptureUI class.
